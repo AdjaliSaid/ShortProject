@@ -1,0 +1,129 @@
+  /* Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    margin-top:100px;
+    width: 600px;
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 20px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .text {
+    color: #E53888;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .underline {
+    width: 61px;
+    height: 6px;
+    background: #E53888;
+    border-radius: 9px;
+  }
+  
+  /* Back Button */
+
+  .back-home-container {
+    position: absolute; /* Use absolute positioning */
+    top: 10px; /* Pin it to the top of the page */
+    left: 50px; /* Horizontally center the button */
+    transform: translateX(-50%); /* Adjust the centering */
+    z-index: 10; /* Ensure the button is above other content */
+}
+
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #E53888;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #c1276a;
+  }
+  
+  /* Input Fields */
+  .inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .input-field {
+    display: flex;
+    flex-direction: column; /* stack label and input vertically */
+    align-items: flex-start; /* align label to the left */
+    margin: auto;
+    width: 485px;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 10px 15px; /* add some padding */
+    gap: 2px; 
+  }
+  
+  .input-field label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  
+  
+  .input-field input {
+    width: 100%; /* input takes full width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fafafa;
+  }
+  
+  .input-field input:read-only {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  .input-field input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+  /* Submit Button */
+  .sub-btn {
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #E53888;
+    border-radius: 50px;
+    font-size: 19px;
+    cursor: pointer;
+    margin: 0 187px;
+  }
+  
+  .sub-btn:hover {
+    background-color: #c1276a;
+  }
+  

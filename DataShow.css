@@ -1,0 +1,54 @@
+.data-table-container {
+    width: 95%;
+    margin: auto;
+    background-color: transparent; /* Make the background transparent */
+    padding: 10px;
+    max-height: 500px; /* Set a fixed height for scrolling */
+    overflow-y: auto;
+    border-radius: 10px; /* Enable vertical scrolling */
+}
+
+.rdt_Table {
+    background-color: transparent !important; /* Make the table background transparent */
+}
+
+.rdt_TableRow {
+    background-color: rgba(123, 23, 23, 0.1); /* Semi-transparent background */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect behind the row */
+    backdrop-filter: blur(10px); /* Standard property for broader support */
+    transition: backdrop-filter 0.3s ease;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.rdt_TableRow:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background on hover */
+    transform: scale(1.02); /* Slightly enlarge the row */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a floating shadow */
+}
+
+.rdt_TableRow:hover {
+    background-color: rgb(242, 144, 190) !important; /* Slightly darker pink on hover */
+}
+
+.rdt_TableCell {
+    color: rgb(0, 0, 0) !important; /* Ensure text is visible */
+    font-weight: bold;
+}
+
+.update-btn {
+    background-color: #54c358;
+    color: white;
+    border: none;
+    padding: 05px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    background-color: #cd1205;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
